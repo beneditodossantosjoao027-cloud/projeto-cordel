@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+body{
+	margin:0px;
+	padding:0px;
+	border:0px;
+	
+}
+
+header{
+	
+	font-size:3vw;
+	border:0px;
+
+	text-align:center;
+	background-color:black;
+	color:white;
+	font-family:sans-serif;
+	margin:auto;
+	padding:10px;
+}
+p{
+	padding-left:16px;
+	font-size:10vw;
+
+	font:italic normal 2em serif;
+	font-style:italic;
+}
+footer{
+	background-color:black;
+	color:white;
+	text-align:center;
+}
+div{
+	color:white;
+	background-color:black;
+	padding:1em;
+	padding-left:1em;
+}
+div > p{
+	display:inline-block;
+	padding:4px;
+	background-color:rgba(0,0,0,0.510);
+	color:black;
+	
+}
+
+#d2{
+
+	box-shadow:6px 6px  13px 0px black inset;
+	background-image:url("livro.png");
+	background-position:center;
+	background-attachment:fixed;
+	background-size:cover;
+	
+}
+#d1{
+	
+
+
+	box-shadow:6px 6px  13px 0px black inset;
+	background-image:url("j.png");
+	background-position:center;
+	background-attachment:fixed;
+	background-size:cover;
+	
+}
+
